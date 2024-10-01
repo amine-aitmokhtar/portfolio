@@ -227,7 +227,7 @@ export const education = [
     school: "HIS University, Algérie",
     date: "Octobre 2020 - Juillet 2023",
     degree: "Licence en Informatique – Systèmes Informatiques",
-    desc: "Diplôme en informatique avec une spécialisation en systèmes informatiques. Projets notables incluent le développement d'une application de gestion des inscriptions en ligne, et un modèle prédictif pour le diagnostic médical.",
+    desc: "Diplôme en informatique avec une spécialisation en systèmes informatiques. Au cours de ma formation j'ai acquis des compétences solides en algorithmique, programmation web, gestion et administration de bases de données et l'environnement Linux.",
   },
 ];
 
@@ -235,16 +235,30 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Application de gestion des inscriptions - HIS University",
-    date: "Février 2022 - Juillet 2023",
+    title: "V2-Application de gestion des inscriptions - HIS University",
+    date: "Aout 2023 - Octobre 2023",
     description:
       "Développement d'une application web pour la gestion des inscriptions en ligne et le suivi des étudiants. Cette application permet aux étudiants de s'inscrire, de soumettre des documents et de suivre l'avancement de leur dossier. Du côté administratif, elle offre des outils de gestion et de génération de rapports pour faciliter la gestion des inscriptions et du parcours académique.",
     image: "/images/His_site_Amine.png", 
-    tags: ["React", "jQuery", "Laravel", "CSS", "MySQL"],
+    tags: ["React", "Tailwind", "Laravel", "MySQL"],
     category: "web app",
-    github: "https://github.com/AmineAitmokhtar/gestion-inscriptions",
+    github: "https://github.com/amine-aitmokhtar/HIS_UNIVERSITY_V2",
     webapp: "https://his.edu.dz/",
   },
+
+  {
+    id: 1,
+    title: "V1-Application de gestion des inscriptions - HIS University",
+    date: "Février 2022 - Juillet 2023",
+    description:
+      "Développement d'une application web pour la gestion des inscriptions en ligne et le suivi des étudiants. Cette application permet aux étudiants de s'inscrire, de soumettre des documents et de suivre l'avancement de leur dossier. Du côté administratif, elle offre des outils de gestion et de génération de rapports pour faciliter la gestion des inscriptions et du parcours académique.",
+    image: "/images/HISacceuil.png", 
+    tags: ["React", "jQuery", "Laravel", "CSS", "MySQL"],
+    category: "web app",
+    github: "https://github.com/amine-aitmokhtar/HIS_UNIVERSITY_V1",
+    webapp: "https://netlify_HIS_University.dz",
+  },
+
   {
   id: 2,
   title: "Site e-commerce",
@@ -254,8 +268,20 @@ export const projects = [
   image: "/images/totebag.png",
   tags: ["React", "Symfony", "TailwindCSS", "PostgresSQL"],
   category: "web app",
-  github: "https://github.com/AmineAitmokhtar/ecommerce-site",
+  github: "https://github.com/amine-aitmokhtar/ecommerce_totebag-dz",
   webapp: "https://netlify_totebag.dz",
+},
+
+{
+  id: 3,
+  title: "AlgeriaTourTrip",
+  date: " juillet 2023 - Septembre 2023",
+  description:
+  "AlgeriaTourTrip est une application web conçue pour promouvoir le tourisme en Algérie. Elle offre aux utilisateurs des informations sur diverses destinations touristiques, sites culturels, hôtels, restaurants, et autres. L'application vise à encourager le tourisme, tant domestique qu'international, en mettant en valeur la beauté et la diversité de l'Algérie.",
+  image: "/images/algeria.png", 
+  tags: ["React", "CSS","MongoDB"],
+  category: "web app",
+  github: "https://github.com/amine-aitmokhtar/Tourism_algeria",
 },
   { 
     id: 4,
@@ -266,7 +292,7 @@ export const projects = [
     image: "/images/DiaPredict.png", // Utilise le bon chemin d'accès pour les images locales
     tags: ["Python", "Scikit-learn", "Numpy", "Tkinter", "MySQL"],
     category: "machine learning",
-    github: "https://github.com/AmineAitmokhtar/DiaPredict",
+    github: "https://github.com/amine-aitmokhtar/DiaPredict",
   },
 
   {
@@ -278,7 +304,7 @@ export const projects = [
       image: "/images/graphe.png", 
       tags: ["Matlab"],
     category: "android app",
-    github: "https://github.com/AmineAitmokhtar/Projet_Graphe",
+    github: "https://github.com/amine-aitmokhtar/Theorie_des_graphes",
   },
   {
     id: 6,
@@ -289,8 +315,30 @@ export const projects = [
       image: "/images/Francais_Facile.png", 
       tags: ["Java", "Spring Boot", "JPA", "SQL"],
     category: "android app",
-    github: "https://github.com/AmineAitmokhtar/FrançaisFacile",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/amine-aitmokhtar/LeFrancaisFacile_JAVA_DESKTOP",
+  },
+  {
+    id: 7,
+    title: "Weather Data Warehouse",
+    date: "Mars 2024 - Mai 2024",
+    description:
+      "Ce projet vise à transformer des données climatiques initialement non organisées et complexes en un entrepôt de données bien structuré et optimisé. Les données brutes, telles que les températures, les précipitations, la vitesse du vent et autres indicateurs météorologiques, sont collectées, nettoyées, transformées et ensuite stockées dans une base de données en utilisant un modèle structuré.",
+      image: "/images/dash.jpg", 
+      tags: ["Python", "Dash"],
+    category: "web app",
+    github: "https://github.com/amine-aitmokhtar/WeatherDataWarehouse-Dash",
+  },
+  
+  {
+    id: 8,
+    title: "QR Code Scanner",
+    date: "Avril 2022 - Mai 2022",
+    description:
+      "Event Manager Mobile App est une application mobile développée en React qui permet de gérer les participants d'événements et de gérer leur accès aux différentes salles et workshops. Cette application simplifie l'organisation des événements en fournissant une interface intuitive pour le suivi des participants et la gestion des accès.",
+      image: "/images/qrcode.png", 
+      tags: ["React", "CSS","mySQL"],
+    category: "web app",
+    github: "https://github.com/amine-aitmokhtar/QRCodeScanner",
   },
   
 ];
